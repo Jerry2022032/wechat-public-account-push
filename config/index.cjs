@@ -51,16 +51,33 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'm5PXwZIdIdVYpR2wJvdpjlZTNx3OGD37-kDKGeSll0I',
 
   CALLBACK_USERS: [
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oz9Mm6CufO9nO4PUXl6xPR5JyQEM',
     }
   ],
-
+  
+SLOT_LIST: [
+    // 这样配置的话，就会每次发送这句话
+//     { keyword: 'encourage_oneself', contents: '你主要的问题在于读书太少而想得太多' },
+    // 这样配置的话，就会每次随机选一句话发送
+    {
+      keyword: 'lover_prattle',
+      contents: [
+        '因为太喜欢你，所以看谁都像是情敌。',
+        '申请成为你爱里的永久居民。',
+        '希望你对我的想你就像你的头发一样，一抓总是一大把',
+        '你很傻，你很笨，可我还是很羡慕你，因为你有我',
+        '遇见你，就好像捡到了100斤的运气'
+      ],
+    }
+    // 你可以不断按格式往下增加
+    // ...
+  ],
 }
 
 module.exports = USER_CONFIG
