@@ -8,7 +8,7 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx699246efd3957ecf',
+  APP_ID: 'oz9Mm6OMJLgpSYyc9ZrDvywLJI3U',
 
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '094d2c899df72b16dd337569af3c72bb',
@@ -36,7 +36,7 @@ const USER_CONFIG = {
           type: '生日', name: '小金', year: '2000', date: '08-30',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
+//           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -44,7 +44,7 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2022-07-11' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+//         { keyword: 'marry_day', date: '2022-09-09' },
       ],
     },
   ],
